@@ -1,0 +1,14 @@
+server:
+  port: 1122
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pg_connect
+
+    username: username_login
+    password: username_password
+
+  jpa:
+    hibernate:
+      ddl-auto: update
